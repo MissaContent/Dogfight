@@ -5,4 +5,8 @@ public class Plane {
     int WIDHT = 100;
     int HEIGHT = 30;
     int player;
+
+
+
+
 }

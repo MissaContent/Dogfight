@@ -4,10 +4,17 @@ public class Dimension {
     int width;
     int height;
 
-public int Dimension(int width,int height){
-    this.width = width;
-    this.height = height;
-}
+    public Dimension(int width, int height) {
+        this.width = width;
+        this.height = height;
+    }
+
+
+
+    public Dimension(Dimension dimension) {
+        this.width = dimension.width;
+        this.height = dimension.height;
+    }
 
 
 
