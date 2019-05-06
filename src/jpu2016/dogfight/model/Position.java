@@ -14,10 +14,10 @@ public class Position {
     }
 
     public Position( Position position) {
-        this.x = x;
-        this.y = y;
-        this.maxX = maxX;
-        this.maxY = maxY;
+        this.x = position.x;
+        this.y = position.y;
+        this.maxX = position.maxX;
+        this.maxY = position.maxY;
     }
 
 

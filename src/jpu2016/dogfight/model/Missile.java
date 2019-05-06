@@ -1,6 +1,6 @@
 package jpu2016.dogfight.model;
 
-public class Missile {
+public class Missile extends Mobile{
     int SPEED = 4;
     int WIDHT = 30;
     int HEIGHT = 10;
