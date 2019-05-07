@@ -1,29 +1,22 @@
 package jpu2016.dogfight.model;
 
 public class Mobile implements IMobile {
-    int speed;
-    int width;
-    int height;
+    private int speed;
 
+    private Dimension dimension;
 
-    Dimension dimension = new Dimension(Dimension);
-
-
-    public int getWidth() {
-        return width;
+    public Mobile(Direction direction, Position position, Dimension dimension, int speed, String image){
     }
 
-    public void setWidth(int width) {
-        this.width = width;
-        width.setWidth(this);
+    public Dimension getDimension() {
+        return dimension;
     }
 
-    public int getHeight() {
-        return height;
+    public int getSpeed() {
+        return speed;
     }
 
-    public void setHeight(int height) {
-        this.height = height;
-        height.setHidth(this);
+    public void setSpeed(int speed) {
+        this.speed = speed;
     }
 }
