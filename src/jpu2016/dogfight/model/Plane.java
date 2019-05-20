@@ -8,7 +8,7 @@ public class Plane extends Mobile{
 
 
     public Plane(int player, Direction direction, Position position, String image) {
-        super(direction, position, image);
+        super(direction, position, dimension, speed, String image);
     }
 
     public boolean isPlayer(int player){

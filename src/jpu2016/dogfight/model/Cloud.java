@@ -7,8 +7,8 @@ public class Cloud extends Mobile{
     String IMAGE = "cloud";
 
 
-    public Cloud(Direction direction, Dimension dimension {
-        super();
+    public Cloud(Direction direction, Dimension dimension){
+        super(direction, position, dimension, speed, String image);
 
     }
 }

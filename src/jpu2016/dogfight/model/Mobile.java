@@ -19,4 +19,9 @@ public class Mobile implements IMobile {
     public void setSpeed(int speed) {
         this.speed = speed;
     }
+
+    @Override
+    public Direction getDirection() {
+        return null;
+    }
 }

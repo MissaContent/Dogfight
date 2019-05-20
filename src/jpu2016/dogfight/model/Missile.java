@@ -10,7 +10,8 @@ public class Missile extends Mobile{
 
 
     public Missile(Direction direction, Dimension dimension) {
-        super(direction, dimension);
+        super();
+
     }
 
     public int getWIDHTWithADirection(Direction direction) {
