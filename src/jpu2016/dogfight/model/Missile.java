@@ -7,4 +7,23 @@ public class Missile extends Mobile{
     int MAX_DISTANCE_TRAVELED = 1400;
     String IMAGE = "missile";
     int distanceTraveled = 0;
+
+
+    public Missile(Direction direction, Dimension dimension) {
+        super(direction, dimension);
+    }
+
+    public int getWIDHTWithADirection(Direction direction) {
+        return WIDHT;
+    }
+
+    public int getHEIGHTWithADirection(Direction direction) {
+        return HEIGHT;
+    }
+    public void move(){
+
+    }
+    public boolean isWeapon(){
+
+    }
 }
